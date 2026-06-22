@@ -1,0 +1,55 @@
+.create-trip-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+.create-trip-card {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border: none;
+  max-width: 500px;
+  width: 100%;
+}
+
+.create-trip-card h2 {
+  color: #333;
+  font-weight: 700;
+}
+
+.create-trip-card label {
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.create-trip-card input,
+.create-trip-card textarea {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.create-trip-card input:focus,
+.create-trip-card textarea:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.create-trip-card button {
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #667eea;
+  border: none;
+}
+
+.create-trip-card button:hover {
+  background-color: #764ba2;
+}
+
+.create-trip-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
