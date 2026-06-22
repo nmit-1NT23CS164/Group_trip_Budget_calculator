@@ -1,0 +1,24 @@
+.navbar-custom {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .brand-icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar-user {
+  color: #fff;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.navbar-custom .btn-outline-light:hover {
+  background-color: #667eea;
+  border-color: #667eea;
+}
